@@ -36,4 +36,4 @@ From here, ensure that you have created a `PomodoroApp.js` file in your `pomodor
 
 After adding all the code, open two terminal windows, one with the directory `pomodoro-backend` and one with the directory `pomodoro-frontend`.
 
-Use the command `npm start` (on backend first) to run the program.
+Use the command `npm start` (on backend first) to run the program on your local host.
