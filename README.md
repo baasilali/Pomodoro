@@ -8,8 +8,32 @@ Seeing time in a different way, as a vehicle in order to achieve something and n
 
 # Get Started
 
+The program runs on react frontend and utilizes MongoDB for the `pomodoro-backend`. 
 
+```
+mkdir Pomodoro
+cd Pomodoro
+mkdir pomodoro-backend
+cd pomodoro-backend
+npm init -y
+npm install express cors body-parser mongoose 
+```
 
+Create a file called `server.js` and add the code.
 
+Follow this step by creating your `pomodoro-frontend`.
 
+```
+cd Pomodoro
+npx create-react-app pomodoro-frontend
+cd pomodoro-frontend
+npm install axios
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
 
+From here, ensure that you have created a `PomodoroApp.js` file in your `pomodoro-frontend/public/src/` folder.
+
+After adding all the code, open two terminal windows, one with the directory `pomodoro-backend` and one with the directory `pomodoro-frontend`.
+
+Use the command `npm start` (on backend first) to run the program.
