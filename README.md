@@ -8,6 +8,8 @@ Seeing time in a different way, as a vehicle in order to achieve something and n
 
 # Get Started
 
+Code is located in brach `versionOne`
+
 The program runs on react frontend and utilizes MongoDB for the `pomodoro-backend`. 
 
 ```
